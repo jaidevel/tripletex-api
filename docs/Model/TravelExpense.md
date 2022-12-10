@@ -1,0 +1,57 @@
+# TravelExpense
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **int** |  | [optional] 
+**version** | **int** |  | [optional] 
+**changes** | [**\Swagger\Client\Model\Change[]**](Change.md) |  | [optional] 
+**url** | **string** |  | [optional] 
+**project** | [**\Swagger\Client\Model\Project**](Project.md) |  | [optional] 
+**employee** | [**\Swagger\Client\Model\Employee**](Employee.md) |  | 
+**approved_by** | [**\Swagger\Client\Model\Employee**](Employee.md) |  | [optional] 
+**completed_by** | [**\Swagger\Client\Model\Employee**](Employee.md) |  | [optional] 
+**rejected_by** | [**\Swagger\Client\Model\Employee**](Employee.md) |  | [optional] 
+**department** | [**\Swagger\Client\Model\Department**](Department.md) |  | [optional] 
+**payslip** | [**\Swagger\Client\Model\Payslip**](Payslip.md) |  | [optional] 
+**vat_type** | [**\Swagger\Client\Model\VatType**](VatType.md) |  | [optional] 
+**payment_currency** | [**\Swagger\Client\Model\Currency**](Currency.md) |  | [optional] 
+**travel_details** | [**\Swagger\Client\Model\TravelDetails**](TravelDetails.md) |  | [optional] 
+**voucher** | [**\Swagger\Client\Model\Voucher**](Voucher.md) |  | [optional] 
+**attachment** | [**\Swagger\Client\Model\Document**](Document.md) |  | [optional] 
+**is_completed** | **bool** |  | [optional] 
+**is_approved** | **bool** |  | [optional] 
+**rejected_comment** | **string** |  | [optional] 
+**is_chargeable** | **bool** |  | [optional] 
+**is_fixed_invoiced_amount** | **bool** |  | [optional] 
+**is_include_attached_receipts_when_reinvoicing** | **bool** |  | [optional] 
+**completed_date** | **string** |  | [optional] 
+**approved_date** | **string** |  | [optional] 
+**date** | **string** |  | [optional] 
+**travel_advance** | **float** |  | [optional] 
+**fixed_invoiced_amount** | **float** |  | [optional] 
+**amount** | **float** |  | [optional] 
+**payment_amount** | **float** |  | [optional] 
+**chargeable_amount** | **float** |  | [optional] 
+**low_rate_vat** | **float** |  | [optional] 
+**medium_rate_vat** | **float** |  | [optional] 
+**high_rate_vat** | **float** |  | [optional] 
+**payment_amount_currency** | **float** |  | [optional] 
+**number** | **int** |  | [optional] 
+**invoice** | [**\Swagger\Client\Model\Invoice**](Invoice.md) |  | [optional] 
+**title** | **string** |  | [optional] 
+**per_diem_compensations** | [**\Swagger\Client\Model\PerDiemCompensation[]**](PerDiemCompensation.md) | Link to individual per diem compensations. | [optional] 
+**mileage_allowances** | [**\Swagger\Client\Model\MileageAllowance[]**](MileageAllowance.md) | Link to individual mileage allowances. | [optional] 
+**accommodation_allowances** | [**\Swagger\Client\Model\AccommodationAllowance[]**](AccommodationAllowance.md) | Link to individual accommodation allowances. | [optional] 
+**costs** | [**\Swagger\Client\Model\Cost[]**](Cost.md) | Link to individual costs. | [optional] 
+**attachment_count** | **int** |  | [optional] 
+**state** | **string** |  | [optional] 
+**actions** | [**\Swagger\Client\Model\Link[]**](Link.md) |  | [optional] 
+**is_salary_admin** | **bool** |  | [optional] 
+**show_payslip** | **bool** |  | [optional] 
+**accounting_period_closed** | **bool** |  | [optional] 
+**accounting_period_vat_closed** | **bool** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
